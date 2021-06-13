@@ -20,12 +20,23 @@
 
 title: Moneytor Finance
 email: ""
+author:
+  name: Abhinay Kumar
+  email: hey@moneytor.co.in
 description: >- # this means to ignore newlines until "baseurl:"
   Place to learn from mistakes in Finance
-baseurl: "/moneytor" # the subpath of your site, e.g. /blog
-url: "blog.moneytor.co.in" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl:  "/moneytor" # the subpath of your site, e.g. /blog
+url:  "blog.moneytor.co.in" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: abhinaykumar
+
+# show_excerpts: false
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    github:  abhinaykumar
+    linkedin: abhinaykumar21
+    stackoverflow: "2545197"
 
 # Build settings
 # permalink: /:year/:i_month/:i_day/:title.html
@@ -33,18 +44,19 @@ theme: minima # jekyll-theme-so-simple
 # paginate: 2
 # paginate_path: /page-:num/
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
   # - jekyll-paginate
 
 # search: true
 
-defaults:
-  -
-    scope:
-      path: "" # leaving it blank would apply defaults for entire dir, ex: 'project' for project folder etc
-      # type: posts # apply these default to every content which are of type posts (/_posts)
-    values:
-      layout: post
+# defaults:
+#   -
+#     scope:
+#       path: "" # leaving it blank would apply defaults for entire dir, ex: 'project' for project folder etc
+#       # type: posts # apply these default to every content which are of type posts (/_posts)
+#     values:
+#       layout: post
 
 # google_fonts:
 #   - name: "Source Sans Pro"
