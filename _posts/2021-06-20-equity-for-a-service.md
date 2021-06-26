@@ -22,9 +22,9 @@ Coming back to the point, customer loyalty is one of the biggest challenges inte
 
 This article proposes an idea where business owners and the customer both have something valuable to get every time they pay a premium for a service. The idea tries to tackle two types of problems.
 
-Problem 1: I'm a product owner and I want my customers to stay loyal to my product. I do not want my customers switching to another product when offered a lower pricing or cashbacks.
+**Problem 1**: I'm a product owner and I want my customers to stay loyal to my product. I do not want my customers switching to another product when offered a lower pricing or cashbacks.
 
-Problem 2: I'm a product user and I have to pay a “surge” amount to use the service when I need it the most. I naturally get inclined towards a service that quotes a lesser price at that point. What am I getting out of this premium that I pay?
+**Problem 2**: I'm a product user and I have to pay a “surge” amount to use the service when I need it the most. I naturally get inclined towards a service that quotes a lesser price at that point. What am I getting out of this premium that I pay?
 
 How do we solve both problems?
 
@@ -39,6 +39,7 @@ From a user’s point of view, they already love your product and they use it of
 Let’s break down the argument into two parts, **Financial** and **Loyalty**.
 
 #### Financial
+
 Let's say Uber charges Rs. 100 as a surge price, over and above the fare, on average. This amount completely goes as a profit to the company or at least a majority of it does. What if, in return Uber could give out 0.001 shares every time someone uses their services to commute.
 
 Let's do some "math”
@@ -74,5 +75,5 @@ What benefit does a company have by offering shares?
 Making customers a partner in your business is a great way to strengthen the bond and  offer them more value for a premium charged for the service.
 
 Credits: <br />
-[Divya Sivaram](https://www.linkedin.com/in/divya-sivaram){:target="_blank"}(for proofreading) <br />
-[Muhammed Rajeef M K](https://www.linkedin.com/in/rajeefmk/)(for sharing ideas about how to write this article)
+[Divya Sivaram](https://www.linkedin.com/in/divya-sivaram){:target="_blank"}(proofreading) <br />
+[Muhammed Rajeef M K](https://www.linkedin.com/in/rajeefmk/)(sharing ideas about how to write this article)
