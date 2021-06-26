@@ -7,78 +7,112 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/default.css"
+locale: en-US
+title: "Moneytor Finance"
+description: "Learn from the mistakes."
+baseurl: "" # the subpath of your site, e.g. "/blog"
+url: "https://blog.moneytor.co.in" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: # path of site logo, e.g. "/images/logo.png"
+date_format: "%B %-d, %Y"
+read_time: true # reading time estimates, e.g. true
+words_per_minute: 130
+mathjax:
+  enable: # MathJax equations, e.g. true, false (default)
+  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags:  # "none", "ams" (default), "all"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 
-title: Moneytor Finance
-email: ""
-author:
-  name: Abhinay Kumar
-  email: hey@moneytor.co.in
-description: >- # this means to ignore newlines until "baseurl:"
-  Place to learn from mistakes in Finance
-baseurl:  "" # the subpath of your site, e.g. /blog
-url:  "blog.moneytor.co.in" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: abhinaykumar
+disqus:
+  shortname: abhinay_kumar # Disqus shortname, e.g. "my_disqus_shortname"
 
-# show_excerpts: false
+twitter:
+  username: # site's Twitter username, e.g. "mmistakes"
 
-minima:
-  date_format: "%b %-d, %Y"
-  social_links:
-    github:  abhinaykumar
-    linkedin: abhinaykumar21
-    stackoverflow: "2545197"
+# Liquid
+liquid:
+  error_mode: strict
 
 # Build settings
-# permalink: /:year/:i_month/:i_day/:title.html
-theme: minima # jekyll-theme-so-simple
-# paginate: 2
-# paginate_path: /page-:num/
+permalink: /:categories/:title
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: true  # enables pagination loop, see section above for additional setup
+# entries_layout:  grid # list
+# posts_limit: 5
+paginate: 5
+paginate_path: /page:num/
+
+# Search
+search_full_content: true # can have performance implications for large sites
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
-  # - jekyll-paginate
+  - jekyll-paginate
+  - jekyll-archives
 
-# search: true
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
 
-# defaults:
-#   -
-#     scope:
-#       path: "" # leaving it blank would apply defaults for entire dir, ex: 'project' for project folder etc
-#       # type: posts # apply these default to every content which are of type posts (/_posts)
-#     values:
-#       layout: post
+# Site Author
+author:
+  name:
+  picture:
+  email:
+  twitter:
+  links:
+    - title:
+      url:
+      icon:
 
-# google_fonts:
-#   - name: "Source Sans Pro"
-#     weights: "400,400i,700,700i"
-#   - name: "Lora"
-#     weights: "400,400i,700,700i"
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/abhinaykumar21
+    icon: fab fa-linkedin
+  # - title: GitHub
+  #   url: https://github.com/mmistakes
+  #   icon: fab fa-github-square
