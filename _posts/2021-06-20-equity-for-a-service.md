@@ -72,3 +72,7 @@ What benefit does a company have by offering shares?
 * Increase in sales
 
 Making customers a partner in your business is a great way to strengthen the bond and  offer them more value for a premium charged for the service.
+
+Credits: <br />
+[Divya Sivaram](https://www.linkedin.com/in/divya-sivaram){:target="_blank"}(for proofreading) <br />
+[Muhammed Rajeef M K](https://www.linkedin.com/in/rajeefmk/)(for sharing ideas about how to write this article)
