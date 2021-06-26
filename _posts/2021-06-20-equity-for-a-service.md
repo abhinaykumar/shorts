@@ -11,9 +11,9 @@ author: abhinay
 <!-- Audio/Video Section -->
 <!-- {% include responsive-embed url="https://www.youtube.com/watch?v=-PVofD2A9t8" ratio="16:9" %} -->
 
-{% if page.url != node.url %}
+<!-- {% if page.url != node.url %}
   <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/432101856&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-{% endif %}
+{% endif %} -->
 
 <br />
 Just like me, if you have also been using online services and payment apps then you must have come across a scheme called “cashback”. Cashbacks are a way to keep a customer loyal to the service or lure them to use the app more often. This is a neat trick and a deceptive financial product to make us believe that we, as a customer, are being rewarded for this transaction without taking an extra effort. I won’t go into the details of why cashbacks are only meant for businesses to get more sales and not for customer benefits.
