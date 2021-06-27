@@ -3,9 +3,9 @@
 - title: Posts
   url: /
 - title: Categories
-  url: /categories
+  url: /categories/
 - title: Search
-  url: /search
+  url: /search/
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
